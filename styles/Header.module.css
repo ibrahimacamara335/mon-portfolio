@@ -22,4 +22,18 @@
   .nav a:hover {
     color: #38bdf8;
   }
+  .nav {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
   
+  @media screen and (max-width: 600px) {
+    .nav {
+      flex-direction: column;
+      align-items: center;
+      gap: 0.5rem;
+    }
+  }
+    
