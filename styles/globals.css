@@ -24,6 +24,16 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+/* /styles/globals.css */
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(145deg, #f1f4f9, #e0e7ff);
+  color: #111;
+}
+
+
 * {
   box-sizing: border-box;
   padding: 0;

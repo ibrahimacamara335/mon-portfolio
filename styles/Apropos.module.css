@@ -1,0 +1,101 @@
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+    background: linear-gradient(to bottom right, #f9f9f9, #e8f0ff);
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+  }
+  
+  .title {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    color: #2c3e50;
+  }
+  
+  .profileSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    margin-bottom: 3rem;
+  }
+  
+  .imageWrapper {
+    border-radius: 50%;
+    overflow: hidden;
+    width: 180px;
+    height: 180px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .profileImage {
+    border-radius: 50%;
+  }
+  
+  .bio {
+    max-width: 600px;
+    font-size: 1.1rem;
+    color: #555;
+  }
+  
+  .skills {
+    margin-top: 2rem;
+  }
+  
+  .skills h3 {
+    margin-bottom: 1.5rem;
+    color: #2c3e50;
+  }
+  
+  .skillsGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 1rem;
+    justify-items: center;
+  }
+  
+  .skillCard {
+    background-color: white;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    font-weight: bold;
+    font-size: 1rem;
+    color: #0070f3;
+    width: 100%;
+    transition: transform 0.2s ease;
+  }
+  
+  .skillCard:hover {
+    transform: translateY(-5px);
+  }
+  
+  .cvButton {
+    display: inline-block;
+    margin-top: 3rem;
+    padding: 0.75rem 1.5rem;
+    background-color: #0070f3;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.2s ease;
+  }
+  
+  .cvButton:hover {
+    background-color: #0059c1;
+  }
+  
+  /* Responsive tweaks */
+  @media (max-width: 600px) {
+    .skillsGrid {
+      grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    }
+  
+    .bio {
+      font-size: 1rem;
+    }
+  }
+  
