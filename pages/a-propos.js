@@ -26,13 +26,9 @@ export default function APropos() {
         transition={{ delay: 0.5 }}
       >
         <div className={styles.imageWrapper}>
-          <Image
-            src="/photo.jpg"
-            alt="Photo de profil"
-            width={180}
-            height={180}
+        <Image src="/photo.jpg" alt="Ma photo de profil" width={200} height={200} />
+
             className={styles.profileImage}
-          />
         </div>
 
         <div className={styles.bio}>
